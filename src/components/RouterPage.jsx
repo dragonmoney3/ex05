@@ -28,9 +28,9 @@ const RouterPage = () => {
             </Navbar>
 
             <Switch>
-                <Route path="/" Component={HomePage} exact={true} />
-                <Route path="/todos" Component={TodosPage} exact={true} />
-                <Route path="/posts" Component={PostsPage} exact={true} />
+                <Route path="/" component={HomePage} exact={true} />
+                <Route path="/todos" component={TodosPage} />
+                <Route path="/posts" component={PostsPage} />
             </Switch>
         </>
     )
